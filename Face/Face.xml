@@ -1,0 +1,7 @@
+<uwsgi>
+	<socket>127.0.0.1:8632</socket>
+	<chdir>/var/www/Face</chdir>
+	<module>Face.wsgi:application</module>
+	<processes>1</processes>
+	<daemonize>/tmp/uwsgi.log</daemonize>
+</uwsgi>
